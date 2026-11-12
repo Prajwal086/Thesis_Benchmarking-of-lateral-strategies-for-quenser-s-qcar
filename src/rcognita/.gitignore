@@ -59,7 +59,8 @@ htmlcov/
 .tox/
 .nox/
 .coverage
-.vscode
+.vscode/
+venv/
 .coverage.*
 .cache
 nosetests.xml
