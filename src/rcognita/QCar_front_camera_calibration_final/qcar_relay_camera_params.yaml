@@ -1,0 +1,14 @@
+# Use with --ros-args --params-file qcar_relay_camera_params.yaml
+# Hardware commands remain DISABLED unless explicitly enabled separately.
+pc_qcar_offboard_relay:
+  ros__parameters:
+    camera_fx: 398.77823417316034
+    camera_fy: 265.33975909928114
+    camera_cx: 449.8905370768335
+    camera_cy: 197.21677742601287
+    camera_distortion_csv: -0.336792619788,0.142543524733,0.000815626858,-0.001322746563,-0.032608145132
+    camera_width: 820
+    camera_height: 410
+    rectify_camera_frames: true
+    camera_is_rectified: false
+    camera_distortion_model: plumb_bob

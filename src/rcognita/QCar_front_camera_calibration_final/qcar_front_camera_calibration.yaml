@@ -1,0 +1,57 @@
+# Raw QCar front camera intrinsic calibration, 820x410 image stream.
+# This is the original distorted-camera model (not the rectified CameraInfo output).
+image_width: 820
+image_height: 410
+camera_name: qcar_front_camera
+camera_matrix:
+  rows: 3
+  cols: 3
+  data:
+  - 398.77823417316034
+  - 0.0
+  - 449.8905370768335
+  - 0.0
+  - 265.33975909928114
+  - 197.21677742601287
+  - 0.0
+  - 0.0
+  - 1.0
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data:
+  - -0.33679261978755254
+  - 0.142543524732544
+  - 0.0008156268584108052
+  - -0.001322746562534115
+  - -0.03260814513205034
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data:
+  - 1.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+  - 0.0
+  - 0.0
+  - 0.0
+  - 1.0
+projection_matrix:
+  rows: 3
+  cols: 4
+  data:
+  - 398.77823417316034
+  - 0
+  - 449.8905370768335
+  - 0
+  - 0
+  - 265.33975909928114
+  - 197.21677742601287
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
