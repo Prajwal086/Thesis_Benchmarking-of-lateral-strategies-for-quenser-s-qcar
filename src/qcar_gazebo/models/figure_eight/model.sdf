@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="figure_eight">
+    <static>true</static>
+
+    <link name="figure_eight">
+
+      <visual name="track_visual">
+        <pose>0 0 0 0 0 0</pose>
+
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>6 6</size>
+          </plane>
+        </geometry>
+
+        <material>
+          <script>
+            <uri>model://figure_eight/materials/scripts</uri>
+            <uri>model://figure_eight/materials/textures</uri>
+            <name>figure_eight/Track</name>
+          </script>
+        </material>
+
+      </visual>
+
+      <collision name="track_collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>6 6</size>
+          </plane>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

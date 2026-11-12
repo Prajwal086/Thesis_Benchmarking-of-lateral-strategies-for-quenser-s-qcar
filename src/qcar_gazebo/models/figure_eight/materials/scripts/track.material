@@ -1,0 +1,14 @@
+material figure_eight/Track
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture track.png
+        filtering none
+      }
+    }
+  }
+}

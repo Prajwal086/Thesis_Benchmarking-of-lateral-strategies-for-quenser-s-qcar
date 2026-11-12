@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="circle">
+    <static>true</static>
+
+    <link name="circle">
+
+      <visual name="track_visual">
+        <pose>0 0.1 0 0 0 0</pose>
+
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>6 6</size>
+          </plane>
+        </geometry>
+
+        <material>
+          <script>
+            <uri>model://circle/materials/scripts</uri>
+            <uri>model://circle/materials/textures</uri>
+            <name>Circle/Track</name>
+          </script>
+        </material>
+
+      </visual>
+
+      <collision name="track_collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>6 6</size>
+          </plane>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="s_curve">
+    <static>true</static>
+
+    <link name="s_curve">
+
+      <visual name="track_visual">
+        <pose>0 0 0 0 0 0</pose>
+
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>6 6</size>
+          </plane>
+        </geometry>
+
+        <material>
+          <script>
+            <uri>model://s_curve/materials/scripts</uri>
+            <uri>model://s_curve/materials/textures</uri>
+            <name>S_curve/Track</name>
+          </script>
+        </material>
+
+      </visual>
+
+      <collision name="track_collision">
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size>6 6</size>
+          </plane>
+        </geometry>
+      </collision>
+
+    </link>
+  </model>
+</sdf>

@@ -1,0 +1,14 @@
+material Circle/Track
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture track.png
+        filtering none
+      }
+    }
+  }
+}

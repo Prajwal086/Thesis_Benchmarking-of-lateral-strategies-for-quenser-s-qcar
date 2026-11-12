@@ -1,0 +1,14 @@
+material S_curve/Track
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture track.png
+        filtering none
+      }
+    }
+  }
+}

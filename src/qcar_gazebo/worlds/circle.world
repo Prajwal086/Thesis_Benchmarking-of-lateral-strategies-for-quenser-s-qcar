@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="circle_world">
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://circle</uri>
+      <pose>0 2.0 0.02 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>

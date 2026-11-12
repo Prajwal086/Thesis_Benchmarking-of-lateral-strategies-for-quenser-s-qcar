@@ -1,0 +1,36 @@
+[0.012s] Invoking command in '/home/amit/humble_ws/src/qcar_gazebo/build/qcar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amit/humble_ws/src/qcar_gazebo/build/qcar_gazebo -- -j12 -l12
+[0.049s] Invoked command in '/home/amit/humble_ws/src/qcar_gazebo/build/qcar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amit/humble_ws/src/qcar_gazebo/build/qcar_gazebo -- -j12 -l12
+[0.057s] Invoking command in '/home/amit/humble_ws/src/qcar_gazebo/build/qcar_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amit/humble_ws/src/qcar_gazebo/build/qcar_gazebo
+[0.064s] -- Install configuration: ""
+[0.064s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/ament_index/resource_index/package_run_dependencies/qcar_gazebo
+[0.064s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/ament_index/resource_index/parent_prefix_path/qcar_gazebo
+[0.064s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/environment/ament_prefix_path.sh
+[0.064s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/environment/ament_prefix_path.dsv
+[0.064s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/environment/path.sh
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/environment/path.dsv
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/local_setup.bash
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/local_setup.sh
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/local_setup.zsh
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/local_setup.dsv
+[0.065s] -- Installing: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/package.dsv
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/ament_index/resource_index/packages/qcar_gazebo
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/cmake/qcar_gazeboConfig.cmake
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/cmake/qcar_gazeboConfig-version.cmake
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/package.xml
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/urdf
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/urdf/materials.xacro
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/urdf/qcar_model.xacro
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/launch
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/launch/qcar_gazebo.launch.py
+[0.065s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/worlds
+[0.066s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/worlds/empty.world
+[0.066s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/models
+[0.066s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/models/qcar
+[0.067s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/models/qcar/QCarLidar.stl
+[0.067s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/models/qcar/QCarBody.stl
+[0.067s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/models/qcar/QCarSteeringHubL.stl
+[0.067s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/models/qcar/QCarWheel.stl
+[0.067s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/models/qcar/QCarSteeringHubR.stl
+[0.068s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/config
+[0.068s] -- Up-to-date: /home/amit/humble_ws/src/qcar_gazebo/install/qcar_gazebo/share/qcar_gazebo/config/qcar_controllers.yaml
+[0.068s] Invoked command in '/home/amit/humble_ws/src/qcar_gazebo/build/qcar_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amit/humble_ws/src/qcar_gazebo/build/qcar_gazebo
